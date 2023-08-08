@@ -1,0 +1,16 @@
+.conteudo{
+    width: 80%;
+    margin: auto;
+  }
+
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    color: #0dcaf0;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 1.5em;
+    color: #0dcaf0;
+}
