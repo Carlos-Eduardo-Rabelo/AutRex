@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Roboto+Condensed&display=swap');
+
+body{
+    background-image: url(../img/nuvens-fundo.jpg);
+    background-repeat: repeat;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.conteudo{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 3em;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+.boasvindas{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 4em;
+    color: #0dcaf0;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 2em;
+    color: #0dcaf0;
+}
+
+.textoSobre{
+    margin-bottom: 5%;
+    line-height: 2em;
+}
+
+.carrosel{
+    width: 90%;
+    margin-top: 15em;
+    margin-bottom: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    border-radius: 50px;
+}
+
+.border-image{
+    border-radius: 50px;
+}
+
+.sobre{
+    width: 85%;
+    margin-left: 7%;
+    margin-right: 5%;
+    text-align: left;
+    align-items: center;
+    color: black;
+    font-size: 1.2em;
+}
+
