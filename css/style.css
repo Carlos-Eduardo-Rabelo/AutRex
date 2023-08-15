@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Roboto+Condensed&display=swap');
 
 body{
-    background-image: url(../img/nuvens-fundo.jpg);
-    background-repeat: repeat;
+    background-image: url(../img/fundosite.png);
+    background-repeat: round;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -19,6 +19,10 @@ body{
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
   }
+
+.navbackground{
+    background-image: linear-gradient(to right, #E9CDFF, #94B9FF,#049DD9);
+}
 
 .boasvindas{
     margin-top: 5em;
@@ -66,3 +70,29 @@ body{
     font-size: 1.2em;
 }
 
+.equipe{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.equipeconteudo-1{
+    width: 90%;
+    margin-top: 5em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.equipeconteudo{
+    width: 90%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.finalsite{
+    width: 100%;
+    margin-bottom: 0px;
+    
+}
