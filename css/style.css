@@ -12,13 +12,15 @@ body{
     width: 75%;
     margin: auto;
     margin-bottom: 3em;
-    background-color: #FFFFFF;
+    background-color: rgb(255, 255, 255, 0.7);
     padding: 5px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
   }
+
+  
 
 .navbackground{
     background-image: linear-gradient(to right, #E9CDFF, #94B9FF,#049DD9);
@@ -35,6 +37,12 @@ body{
     color: #0dcaf0;
 }
 
+.titulo-2{
+    text-align: center;
+    font-size: 1.6em;
+    color: #0dcaf0;
+}
+
 .subtitulo{
     text-align: center;
     font-size: 2em;
@@ -42,6 +50,7 @@ body{
 }
 
 .textoSobre{
+    margin-top: 5%;
     margin-bottom: 5%;
     line-height: 2em;
 }
@@ -62,8 +71,9 @@ body{
 
 .sobre{
     width: 85%;
-    margin-left: 7%;
+    margin-left: 8%;
     margin-right: 5%;
+    margin-top: 5%;
     text-align: left;
     align-items: center;
     color: black;
