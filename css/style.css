@@ -1,108 +1,48 @@
+.body{
+    scroll-behavior: smooth;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Roboto+Condensed&display=swap');
+.lista1{
+    width: 4%;
+    height: 100%;
+    background-color:#F6E333;
+    position:fixed ;
+    right: 15%; 
+    top: 0;
+    z-index: -1;
+}
 
-body{
-    background-image: url(../img/fundosite.png);
-    background-repeat: round;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
+.lista2{
+    width: 4%;
+    height: 100%;
+    background-color:#468BF2;
+    position:fixed ;
+    right: 10%; 
+    top: 0;
+    z-index: -1;
+}
+
+.lista3{
+    width: 4%;
+    height: 100%;
+    background-color:#F13030;
+    position:fixed ;
+    right: 5%; 
+    top: 0;
+    z-index: -1;
 }
 
 .conteudo{
-    width: 75%;
-    margin: auto;
-    margin-bottom: 3em;
-    background-color: rgb(255, 255, 255, 0.7);
-    padding: 5px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-  }
-
-  
-
-.navbackground{
-    background-image: linear-gradient(to right, #E9CDFF, #94B9FF,#049DD9);
-}
-
-.boasvindas{
-    margin-top: 5em;
-    margin-bottom: 5em;
-}
-
-.titulo{
-    text-align: center;
-    font-size: 4em;
-    color: #0dcaf0;
-}
-
-.titulo-2{
-    text-align: center;
-    font-size: 1.6em;
-    color: #0dcaf0;
-}
-
-.subtitulo{
-    text-align: center;
-    font-size: 2em;
-    color: #0dcaf0;
-}
-
-.textoSobre{
+    width: 80%;
     margin-top: 5%;
-    margin-bottom: 5%;
-    line-height: 2em;
+    font-size: 1.3em;
 }
 
-.carrosel{
-    width: 90%;
-    margin-top: 15em;
-    margin-bottom: 7em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: double;
-    border-radius: 50px;
+.card2{
+    margin-top: 3%;
 }
 
-.border-image{
-    border-radius: 50px;
-}
+.destaque{
+    color: #8C52FF;
 
-.sobre{
-    width: 85%;
-    margin-left: 8%;
-    margin-right: 5%;
-    margin-top: 5%;
-    text-align: left;
-    align-items: center;
-    color: black;
-    font-size: 1.2em;
-}
-
-.equipe{
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-}
-
-.equipeconteudo-1{
-    width: 90%;
-    margin-top: 5em;
-    margin-bottom: 3em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.equipeconteudo{
-    width: 90%;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.finalsite{
-    width: 100%;
-    margin-bottom: 0px;
-    
 }
