@@ -2,6 +2,16 @@
     scroll-behavior: smooth;
 }
 
+header{
+    margin-bottom: 13%;
+}
+
+.navbar{
+    width: 100%;
+    z-index: 1030;
+    top: 0;
+}
+
 .lista1{
     width: 4%;
     height: 100%;
@@ -33,9 +43,10 @@
 }
 
 .conteudo{
+    position: absolute;
     width: 80%;
-    margin-top: 5%;
     font-size: 1.3em;
+    padding-bottom: 3%;
 }
 
 .card2{
@@ -45,4 +56,10 @@
 .destaque{
     color: #8C52FF;
 
+}
+
+@media screen (max-width: 685px){
+
+    .
+    
 }
