@@ -66,3 +66,15 @@ header{
     font-size: 1.7em;
     padding-left: 5px;
 }
+
+/* tela menor que 972px */
+@media screen and (max-width: 972px) {
+    .conteudo{
+                margin-top: 5%;
+    }
+    }
+@media screen and (max-width: 700px) {
+    .conteudo{
+                margin-top: 10%;
+    }
+    }
