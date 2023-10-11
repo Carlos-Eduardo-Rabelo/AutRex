@@ -57,7 +57,10 @@ header{
     color: #8C52FF;
 
 }
-
+.card-titleteam{
+    align-items: center;
+    margin-left: 40%;
+}
 
 .card-text1{
     font-size: 1.7em;
