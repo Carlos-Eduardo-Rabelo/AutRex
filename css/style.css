@@ -58,8 +58,8 @@ header{
 
 }
 
-@media screen (max-width: 685px){
 
-    .
-    
+.card-text1{
+    font-size: 1.7em;
+    padding-left: 5px;
 }
